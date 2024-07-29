@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>De blessed Christo Motors</title>
+    <title>Dorbass Optimum Global</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -30,6 +30,33 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .footer {
+            position: relative;
+            background: url('img/dorbass logo.PNG') no-repeat center center;
+            background-size: cover;
+            color: #fff; /* Ensure all text is white */
+        }
+
+        .footer::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+            z-index: 1; /* Place the overlay above the background image */
+        }
+
+        .footer > * {
+            position: relative;
+            z-index: 2; /* Ensure footer content is above the overlay */
+        }
+    </style>
+
 </head>
 
 <body>
@@ -48,7 +75,7 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small>Shop b1 Odofin Plaza, Agungi Lekki, Lagos</small>
+                    <small>Rivers, Port Harcourt</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2"></small>
@@ -58,7 +85,7 @@
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>09090215952, 08039810975</small>
+                    <small>+2347075407955</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -76,42 +103,44 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-primary">
-                <i class="fa fa-car me-3"></i>
-                <img src="img/christologo.PNG" style="height: 50px; border-radius: 50%;"/>
-            </h2>            
+                <i class="fa fa-shopping-basket me-3"></i>
+                <img src="img/dorbass logo.PNG" style="height: 50px; border-radius: 50%;"/>
+            </h2>
+                                             
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="service.html" class="nav-item nav-link">products</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-up m-0">
-                        <a href="booking.html" class="dropdown-item">Booking</a>                 
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                    </div>
+
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="service.html" class="nav-item nav-link">Products</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                <div class="dropdown-menu fade-up m-0">
+                    <a href="booking.html" class="dropdown-item">Booking</a>
+                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                 </div>
-                <a href="contact.html" class="nav-item nav-link active">Contact</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a href="cart.html" class="nav-item nav-link">
+                <i class="fa fa-shopping-cart"></i> Cart
+            </a> <!-- Add Cart Icon Link -->
         </div>
+        
     </nav>
     <!-- Navbar End -->
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-1.jpg);">
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/veget.PNG);">
         <div class="container-fluid page-header-inner py-5">
             <div class="container text-center">
-                <h1 class="display-3 text-white mb-3 animated slideInDown">Contact</h1>
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Contact us</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center text-uppercase">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                        <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Products</li>
                     </ol>
                 </nav>
             </div>
@@ -119,129 +148,79 @@
     </div>
     <!-- Page Header End -->
 
-
-<!-- Contact Start -->
-<div class="container-xxl py-5">
-    <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="text-primary text-uppercase">// Contact Us //</h6>
-            <h1 class="mb-5">Contact For Any Query</h1>
-        </div>
-        <div class="row g-4">
-            <div class="col-12">
-                <div class="row gy-4">
-                    <div class="col-md-4">
-                        <div class="bg-light d-flex flex-column justify-content-center p-4">
-                            <h5 class="text-uppercase">// Booking //</h5>
-                            <p class="m-0"><i class="fa fa-envelope-open text-primary me-2"></i>obinnamedia1@gmail.com</p>
+    <!-- Contact Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase">// Contact Us //</h6>
+                <h1 class="mb-5">Contact For Any Query</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-12">
+                    <div class="row gy-4">
+                        <div class="col-md-4">
+                            <div class="bg-light d-flex flex-column justify-content-center p-4">
+                                <h5 class="text-uppercase">// Booking //</h5>
+                                <p class="m-0"><i class="fa fa-envelope-open text-primary me-2"></i>dorbassoptimum@gmail.com</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="bg-light d-flex flex-column justify-content-center p-4">
-                            <h5 class="text-uppercase">// Reach Out For General Enquiries //</h5>
-                            <p class="m-0"><i class="fa fa-envelope-open text-primary me-2"></i>obinnamedia1@gmail.com</p>
+                        <div class="col-md-4">
+                            <div class="bg-light d-flex flex-column justify-content-center p-4">
+                                <h5 class="text-uppercase">// Reach Out For General Enquiries //</h5>
+                                <p class="m-0"><i class="fa fa-envelope-open text-primary me-2"></i>dorbassoptimum@gmail.com</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="bg-light d-flex flex-column justify-content-center p-4">
-                            <h5 class="text-uppercase">// Sales Expert //</h5>
-                            <p class="m-0"><i class="fa fa-envelope-open text-primary me-2"></i>obinnamedia1@gmail.com</p>
+                        <div class="col-md-4">
+                            <div class="bg-light d-flex flex-column justify-content-center p-4">
+                                <h5 class="text-uppercase">// Sales Expert //</h5>
+                                <p class="m-0"><i class="fa fa-envelope-open text-primary me-2"></i>dorbassoptimum@gmail.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                <iframe class="position-relative rounded w-100 h-100"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127382.77680936173!2d3.379205639949808!3d6.5243797288905225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b92b3b2a2d67f%3A0x6f8b8a9a560f555!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sbd!4v1622508730510!5m2!1sen!2sbd"
-                    frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
-            </div>
-            <div class="col-md-6">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                    <form id="contact-form" action="https://formspree.io/f/xdknaenv" method="POST">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                                    <label for="name">Your Name</label>
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                    <iframe class="position-relative rounded w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31711.616087686618!2d7.004882673750592!3d4.815392601137204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x106a0a9b1bbd2efb%3A0x95d4ec7dff521c6e!2sPort%20Harcourt%2C%20Rivers%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1690432808450!5m2!1sen!2sng"
+                        frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <div class="wow fadeInUp" data-wow-delay="0.2s">
+                        <p class="mb-4">If you have any questions, feel free to contact us via the form below. We'll respond as soon as possible.</p>
+                        <form action="https://formspree.io/f/mvoneklk" method="POST">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control border-0 bg-light px-4" placeholder="Your Name" required="required" style="height: 55px;">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" required="required" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" name="_subject" class="form-control border-0 bg-light px-4" placeholder="Subject" required="required" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message" required="required"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px" required></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                    <div id="success-message" style="display: none; color: green; margin-top: 20px;">
-                        Thank you for your message. We will get back to you soon.
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Contact End -->
+    <!-- Contact End -->
 
-
-<script>
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        var form = event.target;
-        var data = new FormData(form);
-
-        fetch(form.action, {
-            method: form.method,
-            body: data,
-            headers: {
-                'Accept': 'application/json'
-            }
-        }).then(response => {
-            if (response.ok) {
-                document.getElementById('success-message').style.display = 'block';
-                form.reset();
-            } else {
-                response.json().then(data => {
-                    if (Object.hasOwn(data, 'errors')) {
-                        alert(data["errors"].map(error => error["message"]).join(", "));
-                    } else {
-                        alert("Oops! There was a problem submitting your form");
-                    }
-                });
-            }
-        }).catch(error => {
-            alert("Oops! There was a problem submitting your form");
-        });
-    });
-</script>
-
-
-
-   <!-- Footer Start -->
-   <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+<!-- Footer Start -->
+<div class="container-fluid footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Address</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Shop b1 Odofin Plaza, Agungi Lekki, Lagos</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>09090215952, 08039810975</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>obinnamedia1@gmail.com</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Rivers, Port Harcourt</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+2347075407955</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>dorbassoptimum@gmail.com</p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -251,23 +230,28 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Opening Hours</h4>
-                <h6 class="text-light">Monday - Saturday:</h6>
+                <h6 class="text-light">Monday - Sunday:</h6>
                 <p class="mb-4">09.00 AM - 09.00 PM</p>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h4 class="text-light mb-4">Accessories</h4>
-                <a class="btn btn-link" href="">Oil and Lubricants</a>
-                <a class="btn btn-link" href="">Batteries</a>
-                <a class="btn btn-link" href="">Tires</a>
-                <a class="btn btn-link" href="">Brake Pads & Rims</a>
+                <h4 class="text-light mb-4">Categories</h4>
+                <a class="btn btn-link" href="">Rice</a>
+                <a class="btn btn-link" href="">Maize</a>
+                <a class="btn btn-link" href="">Beans</a>
+                <a class="btn btn-link" href="">Vegetables</a>
             </div>
             
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Newsletter</h4>
-                <p>Stay Updated for De blessed christos Motors latest Accessories</p>
-                <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                <p>Stay updated with the latest foodstuffs and promotions from Dorbass Optimum Global</p>
+                
+                <div class="position-relative mx-auto" style="max-width: 500px;">
+                    <form action="https://formspree.io/f/xdknaenv" method="POST">
+                        <div class="input-group">
+                            <input class="form-control border-0 py-3 ps-4 pe-5" type="email" name="email" placeholder="Enter your email address" required>
+                            <button type="submit" class="btn btn-primary py-3 px-4">Subscribe</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -276,7 +260,7 @@
         <div class="copyright">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">De Blessed Christo Motors</a>, All Right Reserved.
+                    &copy; <a class="border-bottom" href="#">Dorbass Optimum Global</a>, All Rights Reserved.
 
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                     Designed By <a class="border-bottom" href="https://martinezagoha4-git-master-martin4dbests-projects.vercel.app/">Martin4dbest</a>
@@ -296,24 +280,25 @@
 <!-- Footer End -->
 
 
-<!-- Back to Top -->
-<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
-<!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="lib/wow/wow.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/counterup/counterup.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="lib/tempusdominus/js/moment.min.js"></script>
-<script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-<script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-<!-- Template Javascript -->
-<script src="js/main.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
